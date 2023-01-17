@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    overflow: scroll;
+    padding: 5px;
+    background-color: rgb(245, 245, 253);
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+header h1 {
+    display: static;
+    border: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(162, 112, 170);
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    font-family: Gotham, monospace, sans-serif;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgb(15, 121, 227), rgb(173, 230, 174));
+    font-family: Gotham, monospace, sans-serif;
+}
+
+.first-section div img {
+    width: 500px;
+    border-radius: 2rem;
+    margin-top: 100px;
+    box-shadow: 5px 3px 9px 0px rgb(90, 90, 183)
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    border-radius: 2rem;
+    padding: 10px;
+    background-color: rgb(230, 230, 221);
+
+}
+
+main div img {
+    width: 20rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 0px 8px 9px 1px rgb(90, 90, 183)
+}
+
+.my-services {
+    margin-top: 50px;
+    font-family: sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: lightblue;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+form input {
+    width: 350px;
+    height: 40px;
+    border-color: limegreen;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 913px) {
+    main {
+        flex-direction: column;
+    }
+
+    .first-section {
+        flex-direction: column;
+    }
+
+    main div label {
+        font-size: 20px;
+
+    }
+
+    .first-section div img {
+        width: 350px;
+        border-radius: 2rem;
+        margin-top: 50px;
+    }
+
+    .decorativeDiv {
+        float: left
+    }
+}
+
+footer {
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer div {
+    align-self: center;
+}
+
+main h1 {
+    color: blue;
+
+}
+
+#sendButton:hover {
+    background-color: aquamarine;
+    border-color: white;
+    width: 60px;
+}
+
+footer div i {
+    color: rgb(134, 134, 221);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+} 
+
+footer h2 {
+    font-size: 20px;
+    float: right;
+}
+
+footer section {
+    background-color: rgb(49, 75, 166);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 2px 3px 4px 1px;
+    opacity: 0.2;
+
+}
+
+footer section div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(58, 105, 186);
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer section div div {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(72, 110, 193);
+}
+
+.decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.decorativeDiv {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(3, 65, 249);
+    border-radius: 100px;
+    opacity: 0.2;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-play-state: running;
+    animation-delay: 01s;
+    align-items: right;
+
+
+}
+
+ul li:hover {
+    padding: 10px;
+    background-color: rgb(184, 105, 196);
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+.decorativeDiv:hover {
+    opacity: 1;
+}
+
+#about {
+    margin-top: 10px;
+    transition: 1s;
+    border-color: lightblue;
+}
+
+#about:hover {
+    margin: 10px;
+    transition: 0.5s;
+    background-color: lightcoral;
+}
+
+.aboutMe {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 1rem;
+    font-size: 20px;
+    transition: 2s;
+}
+
